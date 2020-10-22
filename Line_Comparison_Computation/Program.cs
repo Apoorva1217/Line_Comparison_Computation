@@ -52,6 +52,20 @@ namespace Line_Comparison_Computation
             {
                 Console.WriteLine("Two lines are Not Equal.");
             }
+
+	    //Check whether one line is equal, greater or smaller than other line
+            if(length1.CompareTo(length2) == 0)
+            {
+                Console.WriteLine("Both the lines are Equal.");
+            }
+            else if(length1.CompareTo(length2) == 1)
+            {
+                Console.WriteLine("1st line is greater than 2nd line.");
+            }
+            else
+            {
+                Console.WriteLine("1st line is smaller than 2nd line.");
+            }
         }
     }
 }
